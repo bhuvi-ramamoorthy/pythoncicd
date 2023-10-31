@@ -48,6 +48,6 @@ jobs:
     - name: Report via Command Line
       run: pytest --github-report tests
     - name: Report via Environment
-    env:
-      pytest_github_report: true
-      run: pytest tests
+      env:
+        pytest_github_report: true
+        run: pytest tests
